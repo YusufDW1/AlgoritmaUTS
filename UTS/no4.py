@@ -15,8 +15,8 @@ def rek_bmi(bmi):
 berat_badan = float(input("Masukkan berat badan (kg) : "))
 tinggi_badan = float(input("Masukkan tinggi badan (m): "))
 
-bmi = hitung_bmi(berat_badan, tinggi_badan)
-kategori_bmi = rekomendasi_bmi(bmi)
+bmi = perhitungan_bmi(berat_badan, tinggi_badan)
+kategori_bmi = rek_bmi(bmi)
 
 
 print(f"Berat Badan : {berat_badan} kg")
